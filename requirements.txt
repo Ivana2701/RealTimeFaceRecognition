@@ -1,0 +1,10 @@
+# Real-time face detection and recognition (Option A: OpenCV + face_recognition)
+# Python 3.8+ recommended
+
+opencv-python>=4.8.0
+face_recognition>=1.3.0
+numpy>=1.24.0,<2.0
+
+# face_recognition depends on dlib; on some systems you may need to install
+# dlib separately (e.g. conda install dlib, or build from source).
+# See README troubleshooting section.
