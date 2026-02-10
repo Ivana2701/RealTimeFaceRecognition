@@ -1,0 +1,13 @@
+timestamp,event,authorized_name,reason,distance,camera_frame_id
+2026-02-10 02:38:14,VAULT_OPEN,Queen Elizabeth,,0.377527342787599,477
+2026-02-10 02:38:21,VAULT_LOCK,Queen Elizabeth,timeout,,
+2026-02-10 02:38:23,VAULT_OPEN,Queen Elizabeth,,0.3310436271962867,654
+2026-02-10 02:38:27,VAULT_LOCK,Queen Elizabeth,timeout,,
+2026-02-10 02:38:57,VAULT_OPEN,Queen Elizabeth,,0.5271689101770434,1383
+2026-02-10 02:39:01,VAULT_LOCK,Queen Elizabeth,timeout,,
+2026-02-10 02:39:06,VAULT_OPEN,Queen Elizabeth,,0.4812069925156243,1575
+2026-02-10 02:39:11,VAULT_LOCK,Queen Elizabeth,timeout,,
+2026-02-10 02:39:35,VAULT_OPEN,Queen Elizabeth,,0.43870391706329975,2202
+2026-02-10 02:39:39,VAULT_LOCK,Queen Elizabeth,timeout,,
+2026-02-10 02:39:56,VAULT_OPEN,Queen Elizabeth,,0.45827139319429255,2601
+2026-02-10 02:40:02,VAULT_LOCK,Queen Elizabeth,timeout,,

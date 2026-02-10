@@ -34,3 +34,14 @@ LABEL_THICKNESS = 2
 
 # Logging
 RECOGNITION_LOG_COOLDOWN_SECONDS = 5.0  # Avoid spamming logs for same person
+
+# Vault (TREZOR) access control demo
+DEFAULT_AUTHORIZED_NAME = "Queen Elizabeth"
+DEFAULT_VAULT_TITLE = "TREZOR"
+DEFAULT_VAULT_OPEN_HOLD_SEC = 3.0  # Keep vault open after last authorized detection
+DEFAULT_VAULT_HYSTERESIS_FRAMES = 2  # Require K consecutive authorized frames before opening
+DEFAULT_VAULT_OVERLAY_TEXT = True
+DEFAULT_VAULT_WINDOW_WIDTH = 640
+DEFAULT_VAULT_WINDOW_HEIGHT = 480
+VAULT_EVENTS_LOG_DIR = os.path.join(PROJECT_ROOT, "outputs", "logs")
+VAULT_EVENTS_CSV = "vault_events.csv"
